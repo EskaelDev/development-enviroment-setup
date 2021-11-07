@@ -25,6 +25,7 @@ Clear-Host
 $FiraCode = Ask "Fira Code Font"
 $WindowsTerminal = Ask "Windows Terminal"
 $VSC = Ask "Visual Studio Code"
+$DeskPins = Ask "Desk Pins"
 
 if ($FiraCode)
 {
@@ -48,4 +49,10 @@ if ($VSC)
     $PSScriptRoot 
     $InstallVSC = $PSScriptRoot + "VisualStudioCode\Setup-Visual-Studio-Code.ps1"
     &$InstallVSC
+}
+
+if ($DeskPins)
+{
+    curl "https://efotinis.neocities.org/downloads/DeskPins-1.32-setup.exe" -o "DeskPins-1.32-setup.exe"
+    Start-Process -FilePath "DeskPins-1.32-setup.exe" -ArgumentList "/S"
 }
