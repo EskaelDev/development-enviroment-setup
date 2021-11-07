@@ -1,4 +1,4 @@
-# Automated development enviroment settings
+# Automated development enviroment setup
 
 ## Table of Contents
 - [Supported tools, IDEs etc.](#supported-tools--ides-etc)
