@@ -1,0 +1,110 @@
+{
+  // #region +~ IDE
+  // +~ Theme
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react",
+  // +~ Colapses
+  "editor.showFoldingControls": "always",
+  // +~ Minimap
+  "editor.minimap.showSlider": "always",
+  // +~ Explorer indentation
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 18,
+  // +~ Font
+  "editor.fontFamily": "FiraCode NF",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  // +~ Scroll
+  "editor.smoothScrolling": true,
+  // +~ Bracket Colorization
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  // Code Sugeestions
+  "editor.inlineSuggest.enabled": true,
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  // Trust files
+  "security.workspace.trust.untrustedFiles": "open",
+  // +~ Files to hide
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  //  #endregion
+  // #region +~ Formatters
+  "html.format.wrapAttributes": "force-aligned",
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "postcssSorting.config": {
+    "order": [
+      "custom-properties",
+      "dollar-variables",
+      "declarations",
+      "at-rules",
+      "rules"
+    ],
+    "properties-order": [
+      "display",
+      "position",
+      "top",
+      "right",
+      "bottom",
+      "left"
+    ]
+  },
+  // #endregion
+  // #region +~ Extensions
+  // Eslint 
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  // Typescript Class Organizer
+  "tsco.addRowNumberInRegionName": false,
+  "tsco.addRegionIndentation": false,
+  "tsco.addRegionCaptionToRegionEnd": false,
+  "tsco.useRegions": false,
+  // Powershell
+  "powershell.codeFormatting.autoCorrectAliases": true,
+  "powershell.codeFormatting.preset": "Allman",
+  "powershell.codeFormatting.useCorrectCasing": true,
+  // Drowio
+  "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7Ym9vdHN0cmFwO21vY2t1cHNcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6MTYwMCxcImhlaWdodFwiOjkwMH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
+  // Github Copilot
+  "github.copilot.inlineSuggest.enable": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  // #endregion +~ Extensions
+
+  // Last Record
+}

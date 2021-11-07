@@ -1,0 +1,1 @@
+Copy-Item settings.json "$env:userprofile\AppData\Roaming\Code\User\settings.json" -Force

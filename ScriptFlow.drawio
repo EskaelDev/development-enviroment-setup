@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="QRcuwCbS_F7_0N-bJEUc" name="Page-1">
+        <mxGraphModel dx="2509" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="25" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Main" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Powershell.svg;" vertex="1" parent="1">
+                    <mxGeometry width="65" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.046;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="26" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Install-Font" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Powershell.svg;" vertex="1" parent="1">
+                    <mxGeometry x="120" width="65" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpSize=6;strokeWidth=5;dashed=1;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="1" source="27" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="27" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Setup-Windows-Terminal" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Powershell.svg;" vertex="1" parent="1">
+                    <mxGeometry x="260" width="65" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Setup-Windows-Terminal" style="swimlane;fillColor=#b1ddf0;strokeColor=#10739e;fontColor=#000;" vertex="1" parent="1">
+                    <mxGeometry x="57.5" y="130" width="470" height="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&#10;&#10;&lt;span style=&quot;color: rgb(106, 153, 85); font-family: &amp;quot;firacode nf&amp;quot;, consolas, &amp;quot;courier new&amp;quot;, monospace; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(30, 30, 30); display: inline; float: none;&quot;&gt;Install cross platform version of Powershell&lt;/span&gt;&#10;&#10;" style="whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="15" y="50" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;span style=&quot;color: rgb(106 , 153 , 85) ; font-family: &amp;#34;firacode nf&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(30 , 30 , 30)&quot;&gt;Install oh-my-posh&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="15" y="130" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;span style=&quot;color: rgb(106 , 153 , 85) ; font-family: &amp;#34;firacode nf&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(30 , 30 , 30)&quot;&gt;Copy posh theme to oh-my-posh themes&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="15" y="210" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;span style=&quot;color: rgb(106 , 153 , 85) ; font-family: &amp;#34;firacode nf&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(30 , 30 , 30)&quot;&gt;Install Terminal icons&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="15" y="290" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;color: rgb(106 , 153 , 85) ; font-family: &amp;#34;firacode nf&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(30 , 30 , 30)&quot;&gt;Install PS-Readline&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="15" y="370" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;span style=&quot;color: rgb(106 , 153 , 85) ; font-family: &amp;#34;firacode nf&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(30 , 30 , 30)&quot;&gt;Install Z&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="15" y="450" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;span style=&quot;color: rgb(106 , 153 , 85) ; font-family: &amp;#34;firacode nf&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(30 , 30 , 30)&quot;&gt;Set default path for terminal&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="15" y="530" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;firacode nf&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;Copy settings to Windows Terminal directory&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="15" y="610" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Setup-Visual-Studio-Code" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Powershell.svg;" vertex="1" parent="1">
+                    <mxGeometry x="440" width="65" height="52" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
