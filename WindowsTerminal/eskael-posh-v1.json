@@ -38,24 +38,26 @@
             "alignment": "right",
             "segments": [
                 {
-                    "type": "time",
-                    "style": "plain",
-                    "foreground": "#1976d2",
-                    "properties": {
-                        "time_format": "15:04:05"
-                    }
+                  "type": "executiontime",
+                  "style": "powerline",
+                  "powerline_symbol": "\uE0B0",
+                  "foreground": "#ddd",
+                  "background": "#333c54",
+                  "properties": {
+                    "threshold": 500,
+                    "style": "austin",
+                    "prefix": " <#fefefe>\ufbab</> "
+                  }
                 },
                 {
-                    "type": "executiontime",
-                    "style": "powerline",
-                    "powerline_symbol": "\uE0B0",
-                    "foreground": "#ddd",
-                    "background": "#8800dd",
-                    "properties": {
-                        "threshold": 500,
-                        "style": "austin",
-                        "prefix": " <#fefefe>\ufbab</> "
-                    }
+                  "type": "time",
+                  "style": "powerline",
+                  "powerline_symbol": "\uE0B0",
+                  "foreground": "#ddd",
+                  "background": "#333c54",
+                  "properties": {
+                    "time_format": "15:04:05"
+                  }
                 }
             ]
         },
