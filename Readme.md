@@ -10,7 +10,7 @@
 
 ## Supported tools, IDEs etc.
 -  Windows Terminal
--  Visual Studio Code 
+-  Visual Studio Code (settings.json only)
 -  Deskpins 
 ## Usage
 To run this tool simply launch `Main.ps1` file with powershell
@@ -22,5 +22,6 @@ To run this tool simply launch `Main.ps1` file with powershell
 
 
 ## To Do
-### Visual Studio 2022
-### Power Toys
+- Visual Studio Code (Extensions and Key Bindings)
+- Visual Studio 2022
+- Power Toys
