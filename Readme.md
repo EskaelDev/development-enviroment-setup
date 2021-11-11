@@ -5,13 +5,11 @@
 - [Usage](#usage)
 - [List of powershell aliases](#list-of-powershell-aliases)
 - [To Do](#to-do)
-  * [Visual Studio 2022](#visual-studio-2022)
-  * [Power Toys](#power-toys)
 
 ## Supported tools, IDEs etc.
--  Windows Terminal
+-  [Windows Terminal](https://github.com/microsoft/terminal)
 -  Visual Studio Code (settings.json only)
--  Deskpins 
+-  [Deskpins ](https://efotinis.neocities.org/deskpins/)
 ## Usage
 To run this tool simply launch `Main.ps1` file with powershell
 
@@ -24,4 +22,5 @@ To run this tool simply launch `Main.ps1` file with powershell
 ## To Do
 - Visual Studio Code (Extensions and Key Bindings)
 - Visual Studio 2022
-- Power Toys
+- [Power Toys](https://docs.microsoft.com/en-us/windows/powertoys/)
+- [Github CLI](https://cli.github.com)
