@@ -1,0 +1,12 @@
+VSC config - yellow const and read only
+"editor.semanticTokenColorCustomizations": {
+    "enabled": true, // enable semantic highlighting for all themes
+    "rules": {
+      "*.readonly": {
+        "foreground": "#FFFC38"
+      },
+      "*.const": {
+        "foreground": "#FFFC38"
+      }
+    }
+  },
