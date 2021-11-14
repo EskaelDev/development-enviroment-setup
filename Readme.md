@@ -20,6 +20,7 @@ To run this tool simply launch `Main.ps1` file with powershell
 
 
 ## To Do
+- Git
 - Visual Studio Code (Extensions and Key Bindings)
 - Visual Studio 2022
 - [Power Toys](https://docs.microsoft.com/en-us/windows/powertoys/)
