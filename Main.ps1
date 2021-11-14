@@ -22,6 +22,7 @@ function Ask
     return 0
 }
 Clear-Host
+$git = Ask "install Git"
 $FiraCode = Ask "install Fira Code Font"
 $WindowsTerminal = Ask "install and configure Windows Terminal"
 $VSC = Ask "configure Visual Studio Code"
@@ -32,9 +33,8 @@ if ($FiraCode -eq 1)
     # Install Fira Code Nerd Font
     try
     {
-        $PSScriptRoot 
-        $InstallFonts = $PSScriptRoot + "\Font\Install-Fonts.ps1"
-        &$InstallFonts
+        curl "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe" -o git-install.exe
+        &git-install.exe
     }
     catch
     {
@@ -44,6 +44,23 @@ if ($FiraCode -eq 1)
     
 }
 
+if ($Git -eq 1)
+{
+    # Install Fira Code Nerd Font
+    try
+    {
+        curl 
+        $PSScriptRoot 
+        $InstallFonts = $PSScriptRoot + "\Font\Install-Fonts.ps1"
+        &$InstallFonts
+    }
+    catch
+    {
+        Write-Host "Error: " -ForegroundColor Red -NoNewline
+        Write-Host "Git not installed"
+    }
+    
+}
 if ($WindowsTerminal -eq 1)
 {
     # Setup Windows Terminal
