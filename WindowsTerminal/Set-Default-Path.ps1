@@ -1,8 +1,7 @@
 Write-Host "Default for terminal is: " -NoNewline
 Write-Host $env:userprofile.ToString()  -ForegroundColor Yellow
 $Change = ""
-function Update-Text
-{
+function Update-Text {
     param (
         $DefaultPath
     )
@@ -15,19 +14,21 @@ if (`$pth -eq `$env:userprofile)
 Clear-Host"
 }
 
-do
-{
+do {
     $Change = Read-Host "Do you wanna change the deafault path? Yes(y) No(n)"
     $NewPath = $env:userprofile
-    if ($Change -eq "y" -or $Change -eq "Y")
-    {
+    if ($Change -eq "y" -or $Change -eq "Y") {
         Write-Host "Please provide new default path. Remember about " -NoNewline
         Write-Host "case-sensitivity!" -ForegroundColor Red
         $NewPath = Read-Host 
     }
     $ToAppend = Update-Text $NewPath
-    $PsProfileLocalFile = 'Microsoft.PowerShell_profile.ps1'
-    $PsProfileFile = $env:userprofile + "\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
+    $PsProfileLocalFile = $PSScriptRoot + '\Microsoft.PowerShell_profile.ps1'
+    $PsProfileDir = $env:userprofile + "\Documents\PowerShell\"
+    If (!(test-path $PsProfileDir)) {
+        New-Item -ItemType Directory -Force -Path $PsProfileDir
+    }
+    $PsProfileFile = $PsProfileDir + "\Microsoft.PowerShell_profile.ps1"
     Copy-Item $PsProfileLocalFile $PsProfileFile -Force
     Add-Content $PsProfileFile $ToAppend
 
