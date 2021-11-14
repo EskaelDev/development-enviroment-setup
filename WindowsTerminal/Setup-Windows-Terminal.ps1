@@ -18,9 +18,8 @@ Install-Module -Name PSReadLine -RequiredVersion 2.2.0-beta1 -AllowPrerelease
 Install-Module z -AllowClobber
 
 # Set default path for terminal
-$PSScriptRoot 
-$InstallFonts = $PSScriptRoot + "\Set-Default-Path.ps1"
-&$InstallFonts
+$SetDefaultPath = "$PSScriptRoot\Set-Default-Path.ps1"
+&$SetDefaultPath
 
 # Copy settings to Windows Terminal directory
-Copy-Item settings.json $env:userprofile\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json -Force
+Copy-Item "$PSScriptRoot\settings.json" $env:userprofile\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json -Force
