@@ -1,23 +1,26 @@
 {
-  // #region +~ IDE
+  // ~ VSC Look
   // +~ Theme
-  "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.activeIconPack": "react",
-  // +~ Colapses
+  // Colapses
   "editor.showFoldingControls": "always",
-  // +~ Minimap
+  // Minimap
   "editor.minimap.showSlider": "always",
-  // +~ Explorer indentation
+  // Explorer indentation
   "workbench.tree.renderIndentGuides": "always",
   "workbench.tree.indent": 18,
-  // +~ Font
+  // Font
   "editor.fontFamily": "FiraCode NF",
   "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  // +~ Scroll
+  // Copy with colors
+  "editor.copyWithSyntaxHighlighting": true,
+  // Wrap tabs
+  "workbench.editor.wrapTabs": true,
+  // Scroll
   "editor.smoothScrolling": true,
-  // +~ Bracket Colorization
+  // Bracket Colorization
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
@@ -25,6 +28,10 @@
   "editor.inlineSuggest.enabled": true,
   // Terminal
   "terminal.integrated.defaultProfile.windows": "PowerShell",
+  // Overview border
+  "editor.overviewRulerBorder": false,
+  // Code lense
+  "editor.codeLens": true,
   // Trust files
   "security.workspace.trust.untrustedFiles": "open",
   // +~ Files to hide
@@ -53,7 +60,8 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[css]": {
-    "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting"
+    // "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -94,6 +102,8 @@
   "powershell.codeFormatting.autoCorrectAliases": true,
   "powershell.codeFormatting.preset": "Allman",
   "powershell.codeFormatting.useCorrectCasing": true,
+  "powershell.codeFormatting.newLineAfterCloseBrace": true,
+  "powershell.codeFormatting.useConstantStrings": false,
   // Drowio
   "hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7Ym9vdHN0cmFwO21vY2t1cHNcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltdLFwiZm9ybWF0V2lkdGhcIjpcIjI0MFwiLFwiY3JlYXRlVGFyZ2V0XCI6ZmFsc2UsXCJwYWdlRm9ybWF0XCI6e1wieFwiOjAsXCJ5XCI6MCxcIndpZHRoXCI6MTYwMCxcImhlaWdodFwiOjkwMH0sXCJzZWFyY2hcIjp0cnVlLFwic2hvd1N0YXJ0U2NyZWVuXCI6dHJ1ZSxcImdyaWRDb2xvclwiOlwiI2QwZDBkMFwiLFwiZGFya0dyaWRDb2xvclwiOlwiIzZlNmU2ZVwiLFwiYXV0b3NhdmVcIjp0cnVlLFwicmVzaXplSW1hZ2VzXCI6bnVsbCxcIm9wZW5Db3VudGVyXCI6MCxcInZlcnNpb25cIjoxOCxcInVuaXRcIjoxLFwiaXNSdWxlck9uXCI6ZmFsc2UsXCJ1aVwiOlwiXCJ9In0=",
   // Github Copilot
@@ -104,7 +114,51 @@
     "plaintext": false,
     "markdown": false
   },
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // +~ BetterComments
+  "better-comments.tags": [
+    {
+      "tag": "~",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "#1c212e"
+    },
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "/-",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "+~",
+      "color": "#62804d",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+  ],
   // #endregion +~ Extensions
-
   // Last Record
 }
